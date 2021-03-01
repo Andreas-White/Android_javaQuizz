@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JavaQuizz</string>
+
+    <string name="incorrect_toast">Wrong!</string>
+    <string name="correct_toast">You got it!</string>
+
+    <string name="buttonA">A</string>
+    <string name="buttonB">B</string>
+    <string name="buttonC">C</string>
+    <string name="buttonD">D</string>
+
+    <string name="scoreView">Score</string>
+
+    <string name="start">Start</string>
+    <string name="finish">Finish</string>
+    <string name="replay">Replay</string>
+
+    <string name="q1">
+        Which of the following option leads to the portability and security of Java?
+        <br>\n </br>
+        <br>\na. Bytecode is executed by JVM</br>
+        <br>\nb. The applet makes the Java code secure and portable</br>
+        <br>\nc. Use of exception handling</br>
+        <br>\nd. Dynamic binding between objects</br>
+    </string>
+    <string name="q2">
+        Which of the following is not a Java features?
+        <br>\n </br>
+        <br>\na. Dynamic</br>
+        <br>\nb. Architecture Neutral</br>
+        <br>\nc. Use of pointers</br>
+        <br>\nd. Object-oriented</br>
+    </string>
+    <string name="q3">
+        The \u0021 article referred to as a
+        <br>\n </br>
+        <br>\na. Unicode escape sequence</br>
+        <br>\nb. Octal escape</br>
+        <br>\nc. Hexadecimal</br>
+        <br>\nd. Line feed</br>
+    </string>
+    <string name="q4">
+         _____ is used to find and fix bugs in the Java programs.
+        <br>\n </br>
+        <br>\nA - JVM</br>
+        <br>\nB - JRE</br>
+        <br>\nC - JDK</br>
+        <br>\nD - JDB</br>
+    </string>
+    <string name="q5">
+        What is the default encoding for an OutputStreamWriter?
+        <br>\n </br>
+        <br>\nA - UTF-8</br>
+        <br>\nB - Default encoding of the host platform</br>
+        <br>\nC - UTF-12</br>
+        <br>\nD - None of the above</br>
+    </string>
+    <string name="q6">
+        What is the return type of the hashCode() method in the Object class?
+        <br>\n </br>
+        <br>\nA - Object</br>
+        <br>\nB - int</br>
+        <br>\nC - long</br>
+        <br>\nD - void</br>
+    </string>
+    <string name="q7">
+        Which of the following is a valid long literal?
+        <br>\n </br>
+        <br>\nA - ABH8097</br>
+        <br>\nB - L990023</br>
+        <br>\nC - 904423</br>
+        <br>\nD - 0xnf029L</br>
+    </string>
+    <string name="q8">
+        What does the expression float a = 35 / 0 return?
+        <br>\n </br>
+        <br>\nA - 0</br>
+        <br>\nB - Not a Number</br>
+        <br>\nC - Infinity</br>
+        <br>\nD - Run time exception</br>
+    </string>
+    <string name="q9">
+        Evaluate the following Java expression, if x=3, y=5, and z=10:
+        <br>\n++z + y - y + z + x++</br>
+        <br>\n </br>
+        <br>\nA - 24</br>
+        <br>\nB - 23</br>
+        <br>\nC - 20</br>
+        <br>\nD - 25</br>
+    </string>
+    <string name="q10">
+        Which of the following tool is used to generate API documentation in HTML format from doc comments in source code?
+        <br>\n </br>
+        <br>\nA - javap tool</br>
+        <br>\nB - javaw command</br>
+        <br>\nC - Javadoc tool</br>
+        <br>\nD - javah command</br>
+    </string>
+    <string name="q11">
+        Which of the following creates a List of 3 visible items and multiple selections abled?
+        <br>\n </br>
+        <br>\nA - new List(false, 3)</br>
+        <br>\nB - new List(3, true)</br>
+        <br>\nC - new List(true, 3)</br>
+        <br>\nD - ew List(3, false)</br>
+    </string>
+    <string name="q12">
+        Which of the following for loop declaration is not valid?
+        <br>\n </br>
+        <br>\nA - for ( int i = 99; i >= 0; i / 9 )</br>
+        <br>\nB - for ( int i = 7; i     &lt;= 77; i += 7 )</br>
+        <br>\nC - for ( int i = 20; i >= 2; - -i )</br>
+        <br>\nD - for ( int i = 2; i &lt;= 20; i = 2* i )</br>
+    </string>
+    <string name="q13">
+        Which method of the Class.class is used to determine the name of a class represented by the class object as a String?
+        <br> </br>
+        <br>\nA - getClass()</br>
+        <br>\nB - intern()</br>
+        <br>\nC - getName()</br>
+        <br>\nD - toString()</br>
+    </string>
+    <string name="q14">
+        In which process, a local variable has the same name as one of the instance variables?
+        <br>\n </br>
+        <br>\nA - Serialization</br>
+        <br>\nB - Variable Shadowing</br>
+        <br>\nC - Abstraction</br>
+        <br>\nD - Multi-threading</br>
+    </string>
+    <string name="q15">
+        Which of the following is true about the anonymous inner class?
+        <br>\n </br>
+        <br>\nA - It has only methods</br>
+        <br>\nB - Objects can\'t be created</br>
+        <br>\nC - It has a fixed class name</br>
+        <br>\nD - It has no class name</br>
+    </string>
+    <string name="q16">
+        Which package contains the Random class?
+        <br>\n </br>
+        <br>\nA - java.util package</br>
+        <br>\nB - java.lang package</br>
+        <br>\nC - java.awt package</br>
+        <br>\nD - java.io package</br>
+    </string>
+    <string name="q17">
+        What do you mean by nameless objects?
+        <br>\n </br>
+        <br>\nA - An object created by using the new keyword.</br>
+        <br>\nB - An object of a superclass created in the subclass.</br>
+        <br>\nC - An object without having any name but having a reference.</br>
+        <br>\nD - An object that has no reference.</br>
+    </string>
+    <string name="q18">
+        An interface with no fields or methods is known as a ______.
+        <br>\n </br>
+        <br>\nA - Runnable Interface</br>
+        <br>\nB - Marker Interface</br>
+        <br>\nC - Abstract Interface</br>
+        <br>\nD - CharSequence Interface</br>
+    </string>
+    <string name="q19">
+        Which of the following is an immediate subclass of the Panel class?
+        <br>\n </br>
+        <br>\nA - Applet class</br>
+        <br>\nB - Window class</br>
+        <br>\nC - Frame class</br>
+        <br>\nD - Dialog class</br>
+    </string>
+    <string name="q20">
+        Which option is false about the final keyword?
+        <br>\n </br>
+        <br>\nA - A final method cannot be overridden in its subclasses.</br>
+        <br>\nB - A final class cannot be extended.</br>
+        <br>\nC - A final class cannot extend other classes.</br>
+        <br>\nD - A final method can be inherited.</br>
+    </string>
+    <string name="q21">
+        Which of these classes are the direct subclasses of the Throwable class?
+        <br>\n </br>
+        <br>\nA - RuntimeException and Error class</br>
+        <br>\nB - Exception and VirtualMachineError class</br>
+        <br>\nC - Error and Exception class</br>
+        <br>\nD - IOException and VirtualMachineError class</br>
+    </string>
+    <string name="q22">
+        What do you mean by chained exceptions in Java?
+        <br>\n </br>
+        <br>\nA - Exceptions occurred by the VirtualMachineError</br>
+        <br>\nB - An exception caused by other exceptions</br>
+        <br>\nC - Exceptions occur in chains with discarding the debugging information</br>
+        <br>\nD - None of the above</br>
+    </string>
+    <string name="q23">
+        In which memory a String is stored, when we create a string using new operator?
+        <br>\n </br>
+        <br>\nA - Stack</br>
+        <br>\nB - String memory</br>
+        <br>\nC - Heap memory</br>
+        <br>\nD - Random storage space</br>
+    </string>
+    <string name="q24">
+        What is the use of the intern() method?
+        <br> </br>
+        <br>\nA - It returns the existing string from memory</br>
+        <br>\nB - It creates a new string in the database</br>
+        <br>\nC - It modifies the existing string in the database</br>
+        <br>\nD - None of the above</br>
+    </string>
+    <string name="q25">
+        Which of the following is a marker interface?
+        <br>\n </br>
+        <br>\nA - Runnable interface</br>
+        <br>\nB - Remote interface</br>
+        <br>\nC - Readable interface</br>
+        <br>\nD - Result interface</br>
+    </string>
+    <string name="q26">
+        Which of the following is a reserved keyword in Java?
+        <br>\n </br>
+        <br>\nA - object</br>
+        <br>\nB - strictfp</br>
+        <br>\nC - main</br>
+        <br>\nD - system</br>
+    </string>
+    <string name="q27">
+        Which keyword is used for accessing the features of a package?
+        <br>\n </br>
+        <br>\nA - package</br>
+        <br>\nB - import</br>
+        <br>\nC - extends</br>
+        <br>\nD - export</br>
+    </string>
+    <string name="q28">
+        In java, jar stands for_____.
+        <br>\n </br>
+        <br>\nA - Java Archive Runner</br>
+        <br>\nB - Java Application Resource</br>
+        <br>\nC - Java Application Runner</br>
+        <br>\nD - None of the above</br>
+    </string>
+    <string name="q29">
+        Which of the following is false?
+        <br>\n </br>
+        <br>\nA - The rt.jar stands for the runtime jar</br>
+        <br>\nB - rt.jar is an optional jar file</br>
+        <br>\nC - rt.jar contains all the compiled class files</br>
+        <br>\nD - All the classes available in rt.jar is known to the JVM</br>
+    </string>
+    <string name="q30">
+        What is the use of \w in regex?
+        <br>\n </br>
+        <br>\nA - Used for a whitespace character</br>
+        <br>\nB - Used for a non-whitespace character</br>
+        <br>\nC - Used for a word character</br>
+        <br>\nD - Used for a non-word character</br>
+    </string>
+    <string name="q31">
+        Which of the given methods are of Object class?
+        <br>\n </br>
+        <br>\nA - notify(), wait( long msecs ), and synchronized()</br>
+        <br>\nB - wait( long msecs ), interrupt(), and notifyAll()</br>
+        <br>\nC - notify(), notifyAll(), and wait()</br>
+        <br>\nD - sleep( long msecs ), wait(), and notify()</br>
+    </string>
+    <string name="q32">
+        Given that Student is a class, how many reference variables and objects are created by the following code?
+        <br>\n </br>
+        <br><b>\nStudent studentName, studentId;</b></br>
+        <br><b>\nstudentName = new Student();</b></br>
+        <br><b>\nStudent stud_class = new Student();</b></br>
+        <br>\n </br>
+        <br>\nA - Three reference variables and two objects are created.</br>
+        <br>\nB - Two reference variables and two objects are created.</br>
+        <br>\nC - One reference variable and two objects are created.</br>
+        <br>\nD - Three reference variables and three objects are created.</br>
+    </string>
+    <string name="q33">
+         Which of the following is a valid syntax to synchronize the HashMap?
+        <br>\n </br>
+        <br>\nA - Map m = hashMap.synchronizeMap();</br>
+        <br>\nB - HashMap map =hashMap.synchronizeMap();</br>
+        <br>\nC - Map m1 = Collections.synchronizedMap(hashMap);</br>
+        <br>\nD - Map m2 = Collection.synchronizeMap(hashMap);</br>
+    </string>
+    <string name="q34">
+        Given,
+        <br><b>\nArrayList list = new ArrayList();</b></br>
+        <br> </br>
+        \nWhat is the initial quantity of the ArrayList list?
+        <br>\n </br>
+        <br>\nA - 5</br>
+        <br>\nB - 10</br>
+        <br>\nC - 0</br>
+        <br>\nD - 100</br>
+    </string>
+    <string name="q35">
+        Which of the following is a mutable class in java?
+        <br>\n </br>
+        <br>\nA - java.lang.String</br>
+        <br>\nB - java.lang.Byte</br>
+        <br>\nC - java.lang.Short</br>
+        <br>\nD - java.lang.StringBuilder</br>
+    </string>
+    <string name="q36">
+        What is meant by the classes and objects that dependents on each other?
+        <br>\n </br>
+        <br>\nA - Tight Coupling</br>
+        <br>\nB - Cohesion</br>
+        <br>\nC - Loose Coupling</br>
+        <br>\nD - None of the above</br>
+    </string>
+    <string name="q37">
+        Given,
+        <br><b>\nint values[ ] = {1,2,3,4,5,6,7,8,9,10};</b></br>
+        <br><b>\nfor(int i=0;i &lt; Y; ++i) </b></br>
+        <br><b>\nSystem.out.println(values[i]);</b></br>
+        <br> </br>
+        \nFind the value of value[i]?
+        <br>\n </br>
+        <br>\nA - 10</br>
+        <br>\nB - 11</br>
+        <br>\nC - 15</br>
+        <br>\nD - None of the above</br>
+    </string>
+    <string name="q38">
+        In character stream I/O, a single read/write operation performs _____.
+        <br>\n </br>
+        <br>\nA - Two bytes read/write at a time.</br>
+        <br>\nB - Eight bytes read/write at a time.</br>
+        <br>\nC - One byte read/write at a time.</br>
+        <br>\nD - Five bytes read/ write at a time.</br>
+    </string>
+    <string name="q39">
+        How many threads can be executed at a time?
+        <br>\n </br>
+        <br>\na. Only one thread</br>
+        <br>\nb. Multiple threads</br>
+        <br>\nc. Only main (main() method) thread</br>
+        <br>\nd. Two threads</br>
+    </string>
+    <string name="q40">
+        If three threads trying to share a single object at the same time, which condition will arise in this scenario?
+        <br>\n </br>
+        <br>\nA - Time-Lapse</br>
+        <br>\nB - Critical situation</br>
+        <br>\nC - Race condition</br>
+        <br>\nD - Recursion</br>
+    </string>
+    <string name="q41">
+        If a thread goes to sleep
+        <br>\n </br>
+        <br>\nA - It releases all the locks it has.</br>
+        <br>\nB - It does not release any locks.</br>
+        <br>\nC - It releases half of its locks.</br>
+        <br>\nD - It releases all of its lock except one.</br>
+    </string>
+    <string name="q42">
+        Which of the following modifiers can be used for a variable so that it can be accessed by any thread or a part of a program?
+        <br>\n </br>
+        <br>\nA - global</br>
+        <br>\nB - transient</br>
+        <br>\nC - volatile</br>
+        <br>\nD - default</br>
+    </string>
+    <string name="q43">
+        What is correct syntax for main method of a java class?
+        <br>\n </br>
+        <br>\nA - public static int main(String[] args)</br>
+        <br>\nB - public int main(String[] args)</br>
+        <br>\nC - public static void main(String[] args)</br>
+        <br>\nD - None of the above.</br>
+    </string>
+    <string name="q44">
+        What is the size of double variable?
+        <br>\n </br>
+        <br>\nA - 8 bit</br>
+        <br>\nB - 16 bit</br>
+        <br>\nC - 32 bit</br>
+        <br>\nD - 64 bit</br>
+    </string>
+    <string name="q45">
+        What is the default value of char variable?
+        <br>\n </br>
+        <br>\nA - \'\\u0000\'</br>
+        <br>\nB - 0</br>
+        <br>\nC - null</br>
+        <br>\nD - not defined</br>
+    </string>
+    <string name="q46">
+        Method Overriding is an example of
+        <br>\n </br>
+        <br>\nA - Static Binding.</br>
+        <br>\nB - Dynamic Binding.</br>
+        <br>\nC - Both of the above.</br>
+        <br>\nD - None of the above.</br>
+    </string>
+    <string name="q47">
+        Which of the following is false about String?
+        <br>\n </br>
+        <br>\nA - String is immutable.</br>
+        <br>\nB - String can be created using new operator.</br>
+        <br>\nC - String is a primary data type.</br>
+        <br>\nD - None of the above.</br>
+    </string>
+    <string name="q48">
+        What is instance variable?
+        <br>\n </br>
+        <br>\nA - Instance variables are static variables within a class but outside any method.</br>
+        <br>\nB - Instance variables are variables defined inside methods, constructors or blocks.</br>
+        <br>\nC - Instance variables are variables within a class but outside any method.</br>
+        <br>\nD - None of the above.</br>
+    </string>
+    <string name="q49">
+        What happens when thread\'s sleep() method is called?
+        <br>\n </br>
+        <br>\nA - Thread returns to the ready state.</br>
+        <br>\nB - Thread returns to the waiting state.</br>
+        <br>\nC - Thread starts running.</br>
+        <br>\nD - None of the above.</br>
+    </string>
+    <string name="q50">
+        When finally block gets executed?
+        <br>\n </br>
+        <br>\nA - Always when try block get executed, no matter exception occurred or not.</br>
+        <br>\nB - Always when a method get executed, no matter exception occurred or not.</br>
+        <br>\nC - Always when a try block get executed, if exception do not occur.</br>
+        <br>\nD - Only when exception occurs in try block code.</br>
+    </string>
+    <string name="q51">
+        Which Set class should be most popular in a multi-threading environment, considering performance constraint?
+        <br>\n </br>
+        <br>\nA - HashSet</br>
+        <br>\nB - ConcurrentSkipListSet</br>
+        <br>\nC - LinkedHashSet</br>
+        <br>\nD - CopyOnWriteArraySet</br>
+    </string>
+    <string name="q52">
+        Which Map class should be most popular in a multi-threading environment, considering performance constraint?
+        <br>\n </br>
+        <br>\nA - Hashtable</br>
+        <br>\nB - CopyOnWriteMap</br>
+        <br>\nC - ConcurrentHashMap</br>
+        <br>\nD - ConcurrentMap</br>
+    </string>
+    <string name="q53">
+        Which allows the removal of elements from a collection?
+        <br>\n </br>
+        <br>\nA - Enumeration</br>
+        <br>\nB - Iterator</br>
+        <br>\nC - Both</br>
+        <br>\nD - None of the above</br>
+    </string>
+    <string name="q54">
+        Which of these is the most popularly used class as a key in a HashMap?
+        <br>\n </br>
+        <br>\nA - String</br>
+        <br>\nB - Integer</br>
+        <br>\nC - Double</br>
+        <br>\nD - All of the above</br>
+    </string>
+    <string name="q55">
+        Which Set implementation is sorted and synchronized?
+        <br>\n </br>
+        <br>\nA - LinkedHashSet</br>
+        <br>\nB - ConcurrentSkipListSet</br>
+        <br>\nC - TreeSet</br>
+        <br>\nD - CopyOnWriteArraySet</br>
+    </string>
+    <string name="q56">
+        Which Map is synchronized?
+        <br>\n </br>
+        <br>\nA - Hashtable</br>
+        <br>\nB - ConcurrentSkipListMap</br>
+        <br>\nC - ConcurrentHashMap</br>
+        <br>\nD - All of the above</br>
+    </string>
+    <string name="q57">
+        Complexity of ArrayList get method
+        <br>\n </br>
+        <br>\nA - O(n-1)</br>
+        <br>\nB - O(n)</br>
+        <br>\nC - O(1)</br>
+        <br>\nD - O(2n)</br>
+    </string>
+    <string name="q58">
+        Which of these is sorted by default
+        <br>\n </br>
+        <br>\nA - LinkedHashSet</br>
+        <br>\nB - TreeSet</br>
+        <br>\nC - HashSet</br>
+        <br>\nD - None of the above</br>
+    </string>
+    <string name="q59">
+        What guarantees type-safety in a collection?
+        <br>\n </br>
+        <br>\nA - Generics</br>
+        <br>\nB - Abstract classes</br>
+        <br>\nC - Interfaces</br>
+        <br>\nD - Collection</br>
+    </string>
+    <string name="q60">
+        HashSet internally uses?
+        <br>\n </br>
+        <br>\nA - Set</br>
+        <br>\nB - HashMap</br>
+        <br>\nC - List</br>
+        <br>\nD - Collection</br>
+    </string>
+    <string name="q61">
+        The root interface of Java collection framework hierarchy is -
+        <br>\n</br>
+        <br>\nA - Collection</br>
+        <br>\nB - Root</br>
+        <br>\nC - Collections</br>
+        <br>\nD - List/Set</br>
+    </string>
+    <string name="q62">
+        Which of those is synchronized?
+        <br>\n</br>
+        <br>\nA - ArrayList</br>
+        <br>\nB - LinkedList</br>
+        <br>\nC - Vector</br>
+        <br>\nD - None of these</br>
+    </string>
+    <string name="q63">
+        ArrayList implements that of the following?
+        <br>\n</br>
+        <br>\nA - List</br>
+        <br>\nB - RandomAccess</br>
+        <br>\nC - Cloneable</br>
+        <br>\nD - All of these</br>
+    </string>
+    <string name="q64">
+        Which of those permits the storage of the many null values?
+        <br>\n</br>
+        <br>\nA - Set</br>
+        <br>\nB - List</br>
+        <br>\nC - None of these</br>
+        <br>\nD - All of these</br>
+    </string>
+    <string name="q65">
+        nextIndex() and previousIndex() are methods of which interface?
+        <br>\n</br>
+        <br>\nA - IndexIterator</br>
+        <br>\nB - Iterator</br>
+        <br>\nC - ListIterator</br>
+        <br>\nD - NextPreviousIterator</br>
+    </string>
+    <string name="q66">
+        Vector extends that of these?
+        <br>\n</br>
+        <br>\nA - ArrayList</br>
+        <br>\nB - LinkedList</br>
+        <br>\nC - AbstractList</br>
+        <br>\nD - None</br>
+    </string>
+    <string name="q67">
+        LinkedList implements?
+        <br>\n</br>
+        <br>\nA - Deque</br>
+        <br>\nB - List</br>
+        <br>\nC - None of the above</br>
+        <br>\nD - Both of the above</br>
+    </string>
+    <string name="q68">
+        In Iterator, nextElement() method of Enumeration has been changed to:
+        <br>\n</br>
+        <br>\nA - next()</br>
+        <br>\nB - getNext()</br>
+        <br>\nC - returnNext()</br>
+        <br>\nD - name remains same</br>
+    </string>
+    <string name="q69">
+        From Java five onwards, that one among these is suggested to replace Hashtable?
+        <br>\n</br>
+        <br>\nA - ConcurrentHashMap</br>
+        <br>\nB - HashMap</br>
+        <br>\nC - ConcurrentHashtable</br>
+        <br>\nD - None</br>
+    </string>
+    <string name="q70">
+        Which doesn\'t permit to store a null value?
+        <br>\n</br>
+        <br>\nA - TreeSet</br>
+        <br>\nB - LinkedHashSet</br>
+        <br>\nC - HashSet</br>
+        <br>\nD - None</br>
+    </string>
+    <string name="q71">
+        What describes an algorithm performs in best, average or worse case scenarios?
+        <br>\n</br>
+        <br>\nA - Big-B</br>
+        <br>\nB - Big-O</br>
+        <br>\nC - Big-Data</br>
+        <br>\nD - Big-N</br>
+    </string>
+    <string name="q72">
+        State the search time complexity of an ordered array.
+        <br>\n</br>
+        <br>\nA - O(n)</br>
+        <br>\nB - O(1)</br>
+        <br>\nC - O(logn)</br>
+        <br>\nD - O(n-1)</br>
+    </string>
+    <string name="q73">
+        TreeMap implements?
+        <br>\n</br>
+        <br>\nA - Dictionary</br>
+        <br>\nB - HashMap</br>
+        <br>\nC - AbstractMap</br>
+        <br>\nD - NavigableMap</br>
+    </string>
+    <string name="q74">
+        Which list class should be most popular in a multi-threading environment, considering performance constraint?
+        <br>\n</br>
+        <br>\nA - Vector</br>
+        <br>\nB - CopyOnWriteArrayList</br>
+        <br>\nC - ArrayList</br>
+        <br>\nD - ConcurrentArrayList</br>
+    </string>
+    <string name="q75">
+        LinkedHashSet implements:
+        <br>\n</br>
+        <br>\nA - Set</br>
+        <br>\nB - Cloneable</br>
+        <br>\nC - Serializable</br>
+        <br>\nD - All of the above</br>
+    </string>
+    <string name="q76">
+        What is the significance of using instanceOf operator and getClass() in equals method?
+        <br>\n</br>
+        <br>\nA - InstanceOf can return true for comparing current class with its subclass as well</br>
+        <br>\nB - getClass() can return true only if exactly same class is compared</br>
+        <br>\nC - getClass() can return false when compared with subclass</br>
+        <br>\nD - All of the above</br>
+    </string>
+    <string name="q77">
+        Which of those isn\'t an interface within the Collections Framework?
+        <br>\n</br>
+        <br>\nA - Collection</br>
+        <br>\nB - Group</br>
+        <br>\nC - Set</br>
+        <br>\nD - List</br>
+    </string>
+    <string name="q78">
+        Which of those assortment categories has the flexibility to grow dynamically?
+        <br>\n</br>
+        <br>\nA - Array</br>
+        <br>\nB - Arrays</br>
+        <br>\nC - ArrayList</br>
+        <br>\nD - None of these</br>
+    </string>
+    <string name="q79">
+        The efficiency and accuracy of a HashMap are often warranted with:
+        <br>\n</br>
+        <br>\nA - Override equals method</br>
+        <br>\nB - Override hashCode method</br>
+        <br>\nC - None of these</br>
+        <br>\nD - Both a and b</br>
+    </string>
+    <string name="q80">
+        A HashMap permits the existence of:
+        <br>\n</br>
+        <br>\nA - null values</br>
+        <br>\nB - one null key</br>
+        <br>\nC - None of these</br>
+        <br>\nD - Both of these</br>
+    </string>
+    <string name="q81">
+        In an Iterator what implementation will traverse a collection in each direction?
+        <br>\n</br>
+        <br>\nA - Iterator</br>
+        <br>\nB - ListIterator</br>
+        <br>\nC - SetIterator</br>
+        <br>\nD - MapIterator</br>
+    </string>
+    <string name="q82">
+        The Comparable interface contains which method:
+        <br>\n</br>
+        <br>\nA - toCompare</br>
+        <br>\nB - compare</br>
+        <br>\nC - compareTo()</br>
+        <br>\nD - compareWith</br>
+    </string>
+    <string name="q83">
+        Which is quicker and uses less memory?
+        <br>\n</br>
+        <br>\nA - ListEnumeration</br>
+        <br>\nB - Iterator</br>
+        <br>\nC - Enumeration</br>
+        <br>\nD - ListIterator</br>
+    </string>
+    <string name="q84">
+        What Iterator will throw a ConcurrentModificationException?
+        <br>\n</br>
+        <br>\nA - Fail-fast Iterators</br>
+        <br>\nB - Fail-safe Iterators</br>
+        <br>\nC - Both of these</br>
+        <br>\nD - None of these</br>
+    </string>
+    <string name="q85">
+        State the number of default segments in Concurrent HashMap.
+        <br>\n</br>
+        <br>\nA - 12</br>
+        <br>\nB - 32</br>
+        <br>\nC - 4</br>
+        <br>\nD - 16</br>
+    </string>
+    <string name="q86">
+        Which is best suited to a multi-threaded environment?
+        <br>\n</br>
+        <br>\nA - WeakHashMap</br>
+        <br>\nB - Hashtable</br>
+        <br>\nC - HashMap</br>
+        <br>\nD - ConcurrentHashMap</br>
+    </string>
+    <string name="q87">
+        The default capacity of a Vector is:
+        <br>\n</br>
+        <br>\nA - 10</br>
+        <br>\nB - 12</br>
+        <br>\nC - 8</br>
+        <br>\nD - 16</br>
+    </string>
+    <string name="q88">
+        Which doesn\'t implement the collection interface?
+        <br>\n</br>
+        <br>\nA - List</br>
+        <br>\nB - Map</br>
+        <br>\nC - Set</br>
+        <br>\nD - None of these</br>
+    </string>
+    <string name="q89">
+        The default capacity of an ArrayList is:
+        <br>\n</br>
+        <br>\nA - 12</br>
+        <br>\nB - 16</br>
+        <br>\nC - 1</br>
+        <br>\nD - 10</br>
+    </string>
+    <string name="q90">
+        An unordered array has a time complexity of:
+        <br>\n</br>
+        <br>\nA - O(log n)</br>
+        <br>\nB - O(n)</br>
+        <br>\nC - O(n + 1)</br>
+        <br>\nD - O(1)</br>
+    </string>
+    <string name="q91">
+        The add and take away methods of TreeSet have a time complexity of:
+        <br>\n</br>
+        <br>\nA - O(n)</br>
+        <br>\nB - O(n + 1)</br>
+        <br>\nC - O(1)</br>
+        <br>\nD - O(log n)</br>
+    </string>
+    <string name="q92">
+        After resizing, size of ArrayList is increased by :
+        <br>\n</br>
+        <br>\nA - 200%</br>
+        <br>\nB - 50%</br>
+        <br>\nC - 100%</br>
+        <br>\nD - None of these</br>
+    </string>
+    <string name="q93">
+        After resizing, size of Vector is accumulated by:
+        <br>\n</br>
+        <br>\nA - 200%</br>
+        <br>\nB - 100%</br>
+        <br>\nC - 50%</br>
+        <br>\nD - None of these</br>
+    </string>
+    <string name="q94">
+        Deque and Queue are derived from:
+        <br>\n</br>
+        <br>\nA - AbstractList</br>
+        <br>\nB - Collection</br>
+        <br>\nC - AbstractCollection</br>
+        <br>\nD - List</br>
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
